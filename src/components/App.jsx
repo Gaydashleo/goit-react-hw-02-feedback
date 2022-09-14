@@ -1,3 +1,8 @@
+
+import React, { Component } from 'react';
+import Section from './Section/Section';
+
+
 export const App = () => {
   return (
     <div
@@ -10,7 +15,9 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      React homework template
+      <Section title="Please leave feedback">
+      </Section>
+      
     </div>
   );
 };
