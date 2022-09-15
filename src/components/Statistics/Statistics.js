@@ -14,8 +14,9 @@ export default function Statistics({
       <p>Neutral:{neutral}</p>
       <p>Bad:{bad}</p>
       <p>TotalFeedback:{totalFeedback}</p>
-      <p>PositiveFeedbackPercentage:{positiveFeedbackPercentage}</p>
-    </>
+      <p>PositiveFeedbackPercentage:{positiveFeedbackPercentage}%</p>
+  </>
+  
   );
 };
 
