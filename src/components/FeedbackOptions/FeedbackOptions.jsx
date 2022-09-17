@@ -1,13 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Button } from './FeedbackOptions.styled.jsx';
 
 export default function FeedbackOptions({ options, onLeaveFeedback }) {
   return (
     <>
       {options.map((option) =>
-      (<button key={option} type='button' name={option} onClick={onLeaveFeedback}>
+      (<Button key={option} type='button' name={option} onClick={onLeaveFeedback}>
         {option}
-      </button>
+      </Button>
       ))}
         </>
   );
